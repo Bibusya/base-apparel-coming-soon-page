@@ -1,0 +1,35 @@
+@media screen and (max-width: 900px) {
+  body {
+    padding: 0;
+  }
+  .img-desktop {
+    display: none;
+  }
+  .container {
+    max-width: 350px;
+    margin: 0 auto 30px auto;
+
+    display: block;
+  }
+  .box-text {
+    text-align: center;
+  }
+
+  .logo {
+    margin: 30px 20px;
+    height: auto;
+    width: 120px;
+    float: left;
+  }
+  h1 {
+    margin: 0 auto 20px auto;
+  }
+  p {
+    margin: 0 auto 30px auto;
+  }
+  .img-mobile {
+    margin-bottom: 60px;
+    width: 100%;
+    height: auto;
+  }
+}
